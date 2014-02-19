@@ -22,10 +22,11 @@
     
     self = [super initWithFrame:frame];
     if (self) {
-        _rect       = frame;
-        _corners    = DTCornerNone;
-        _radius     = 3.0f;
-        _fillColour = [UIColor colorWithRed:0.2f green:0.2f blue:0.2f alpha:1.0f];
+        _rect                = frame;
+        _corners             = DTCornerNone;
+        _radius              = 3.0f;
+        _fillColour          = [UIColor colorWithRed:0.2f green:0.2f blue:0.2f alpha:1.0f];
+        self.backgroundColor = [UIColor clearColor];
     }
     return self;
 }
