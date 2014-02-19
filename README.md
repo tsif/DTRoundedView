@@ -7,7 +7,6 @@ A UIView subclass where you can round individual corners separately
 
 ```no-highlight
 DTRoundedView *roundedview  = [[DTRoundedView alloc] initWithFrame:(CGRect){{100.0f, 100.0f}, {100.0f, 100.0f}}];
-roundedview.backgroundColor = [UIColor clearColor];
 roundedview.fillColour      = [UIColor redColor];
 roundedview.corners         = DTCornerTopRight|DTCornerBottomLeft;
 roundedview.radius          = 10.0f;
